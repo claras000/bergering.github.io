@@ -1,0 +1,284 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background-color: #fafafa;
+}
+
+/* large screen */
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Tablet screen */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+/* Mobile screen */
+
+@media (max-width: 450px) {
+  html {
+    font-size: 14px;
+  }
+  .ÜberUns img {
+    display: none;
+  }
+  .ÜberUns {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+  }
+  .gallery {
+    margin-top: 5px !important;
+    padding-top: 5px !important;
+    margin-bottom: 5px !important;
+    padding-bottom: 5px !important;
+  }
+}
+
+p {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+}
+
+a {
+  font-size: 0.8rem !important;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+h1 {
+  font-size: 3rem !important;
+}
+
+h2 {
+  font-size: 1.3rem !important;
+}
+
+.leistungenSchrift h2 {
+  margin: 5px;
+  font-size: 1.7rem !important;
+}
+
+h3 {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.bg-dark-override {
+  background-color: black;
+  color: white;
+}
+
+/* navbars adresszeile*/
+.adresse1 {
+  font-weight: 200 !important;
+  font-size: 0.8rem !important;
+  margin: 0 0 0 0 !important;
+  color: white;
+}
+
+.boldanzeigen:hover {
+  font-weight: bold !important;
+  color: #a30f27 !important;
+}
+
+/*button stylen in navbar*/
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  color: white;
+}
+
+.navbar-toggler:hover {
+  color: white;
+}
+
+/* hero section*/
+
+/*
+#hero {
+  height: 100%;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("./Img/Arbeit-handwerk.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}*/
+
+.button-dark-override:hover {
+  background-color: #a30f27;
+  color: white;
+}
+
+#hero .button-dark-override:hover {
+  background-color: #a30f27;
+  color: white;
+  border-color: #a30f27;
+}
+
+.backgroundSaw {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(./Img/sägen-arbeitssbild.jpeg);
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-dark-override {
+  border-radius: 0px;
+  padding: 10px 15px 10px 15px;
+  margin: none;
+  border-color: #a30f27;
+  background-color: none;
+  color: #a30f27;
+  border-width: 2px;
+}
+
+#hero .button-dark-override {
+  border-radius: 0px;
+  padding: 10px 15px 10px 15px;
+  margin: none;
+  border-color: white;
+  background-color: none;
+  color: white;
+  border-width: 2px;
+}
+
+/* Custom CSS for full-height sections */
+.section {
+  min-height: 100vh; /* Set the minimum height of each section to 100% of viewport height */
+}
+
+/* Leistungssection*/
+.leistungen {
+  display: inline-flex !important;
+  margin-bottom: 18px;
+}
+
+.iconLeistungen {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+}
+
+/*Über Uns*/
+.bildArbeitMitHolz {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.ÜberUns h2 {
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  display: none;
+  border-radius: 50%;
+}
+
+.überUnsText {
+  padding: 20px 0 0 0;
+}
+
+/*kontakt*/
+
+.mail {
+  font-size: 1.3rem !important;
+  color: white;
+}
+
+.mail:hover {
+  color: #a30f27;
+}
+
+/* test Gallerie*/
+.close {
+  font-size: 1.5rem;
+}
+
+/*Gallerie*/
+
+.row {
+  margin: 15px;
+}
+
+.close {
+  font-size: 1.5rem;
+}
+
+.gallerie img {
+  opacity: 1;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
+.gallerie:hover img {
+  opacity: 0.5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Stile für den Text-Overlay (Standardzustand) */
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Hintergrundfarbe und Transparenz anpassen */
+  opacity: 1;
+  color: #000000; /* Textfarbe anpassen */
+  display: none; /* Text zuerst ausblenden */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Stile für den Text-Overlay (bei Hover) */
+.gallerie:hover .text-overlay {
+  display: flex; /* Bei Hover einblenden */
+}
+
+.text-overlay h2 {
+  font-size: 2.5rem !important;
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+/*footer*/
+
+footer span li {
+  color: white;
+}
+
+.text-muted {
+  color: white;
+}
