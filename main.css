@@ -283,3 +283,14 @@ footer span li {
 .text-muted {
   color: white;
 }
+
+/*Impressum*/
+
+.ImpressumMail {
+  font-size: 1.3rem !important;
+  color: #000000;
+}
+
+.ImpressumMail:hover {
+  color: #a30f27;
+}
