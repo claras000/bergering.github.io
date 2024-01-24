@@ -9,7 +9,7 @@ The project was created with Boostrap.
 ## Installation
 
 Clone the repository:
-'git clone https://github.com/your-username/your-repo.git'
+'git clone https://github.com/claras000/bergering.github.io'
 
 Navigate to the project directory:
 'cd your-repo'
