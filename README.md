@@ -1,13 +1,13 @@
 This is a static website designed and developed for the independent craftsmen of Zweimann Handwerk.
 The project was created with Boostrap.
 
-![Bergeing Webside](\Img\bergering-webside-header.png)
+![Bergering Webside](Img/bergering-webside-header.png)
 
-![Bergeing Webside](\Img\bergering-webside-tasks.png)
+![Bergering Webside](Img/bergering-webside-tasks.png)
 
-![Bergeing Webside](\Img\bergering-webside-portfolio.png)
+![Bergering Webside](Img/bergering-webside-portfolio.png)
 
-![Bergeing Webside](\Img\bergering-webside-footer.png)
+![Bergering Webside](Img/bergering-webside-footer.png)
 
 ## Tech Stack
 - Boostrap
